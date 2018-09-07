@@ -1,0 +1,26 @@
+body {
+  background-color: #2980b9;
+  width: 600px;
+  height: 800px; }
+
+.p {
+  color: #2980b9;
+  width: 600px;
+  height: 800px; }
+
+.box {
+  border-top: 10px solid #2980b9;
+  width: 600px;
+  height: 800px; }
+
+.main {
+  background-color: green; }
+  .main ul {
+    height: 200px; }
+    .main ul li {
+      color: red; }
+
+.secondary ul li {
+  color: blue; }
+
+/*# sourceMappingURL=sassStyle.css.map */

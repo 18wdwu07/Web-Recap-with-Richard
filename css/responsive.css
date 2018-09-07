@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row{
+    margin-top: 2em;
+}
+
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.col-4{
+    padding: 10px;
+    width: 33.33%;
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+
+.col-6{
+    padding: 10px;
+    width: 50%;
+    float: left;
+}
+
+
+@media only screen and (max-width:724px){
+    body{
+        padding: 50px;
+    }
+
+    .col-4{
+        width: 50%;
+    }
+
+    .col-4:last-of-type{
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width: 490px){
+    .col-4{
+        width: 100%;
+    }
+
+    .col-4:last-of-type{
+        display: none;
+    }
+
+    .col-6{
+        width: 100%;
+    }
+}
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }

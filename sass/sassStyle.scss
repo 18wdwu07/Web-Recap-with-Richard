@@ -1,0 +1,42 @@
+$primaryColour: #2980b9;
+$height: 100px;
+
+@mixin size{
+    width: 600px;
+    height: $height * 8;
+}
+
+
+body{
+    background-color: $primaryColour;
+    @include size;
+}
+
+.p{
+    color: $primaryColour;
+    @include size;
+}
+
+.box{
+    border-top: 10px solid $primaryColour;
+    @include size;
+}
+
+.main{
+    background-color: green;
+    ul{
+        height: 200px;
+        li{
+            color: red;
+        }
+    }
+}
+
+
+.secondary{
+    ul{
+        li{
+            color: blue;
+        }
+    }
+}

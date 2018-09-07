@@ -1,0 +1,20 @@
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background-color: #e74c3c
+}
+
+.blue{
+    background-color: #2980b9;
+}
+
+.green{
+    background-color: #27ae60;
+}
+
+.large{
+    width: 500px;
+}
